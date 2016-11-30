@@ -1,3 +1,1 @@
-# Docker Guide with DigitalOcean
-
-## There is no docker image for 1.0 nadeko right now. Soon.
+###[Guide is now updated, go to the latest guide.](http://nadekobot.readthedocs.io/en/latest/)
