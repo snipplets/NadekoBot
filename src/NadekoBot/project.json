@@ -35,7 +35,7 @@
     "Microsoft.EntityFrameworkCore.Design": "1.0.0-preview2-final",
     "Microsoft.EntityFrameworkCore.Sqlite": "1.0.0",
     "CoreCLR-NCalc": "2.1.2",
-    "ImageProcessorCore": "1.0.0-alpha-1021",
+    "ImageSharp": "1.0.0-alpha-000079",
     "Discord.Net.Commands": {
       "target": "project"
     },
