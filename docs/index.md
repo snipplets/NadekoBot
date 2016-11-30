@@ -12,14 +12,24 @@ Here you can read current [Issues][Issues].
 
 If you want to contribute, be sure to PR on the **[dev][dev]** branch.
 
-[For the most recent guide.](http://nadekobot.readthedocs.io/en/latest/)
+[**For the most recent guide.**](http://nadekobot.readthedocs.io/en/latest/)
 ##Content
 - [About](about.md)
 - Guides
 	- [Windows Guide](guides/Windows Guide.md)
 	- [Linux Guide](guides/Linux Guide.md)
+	- [OSX Guide](guides/OSX Guide.md)
+	- [Docker Guide](guides/Docker Guide.md)
+	- [Upgrading Guide](guides/Upgrading Guide.md)
 - Commands
+	- [Readme](Readme.md)
 	- [Commands List](Commands List.md)
+- [Permissions System](Permissions System.md)
+- [JSON Explanations](JSON Explanations.md)
+- [Custom Reactions](Custom Reactions.md)
+- [Frequently Asked Questions](Frequently Asked Questions.md)
+- [Contribution Guide](Contribution Guide.md)
+- [Donate](Donate.md)
 
 [img]: https://cdn.discordapp.com/attachments/202743183774318593/210580315381563392/discord.png
 [NadekoBot Server]: https://discord.gg/0ehQwTK2RBjAxzEY
