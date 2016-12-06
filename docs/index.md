@@ -1,3 +1,5 @@
+<b><u><h1> PLEASE NOTE THAT 0.9 IS NO LONGER OFFICIALY SUPPORTED BY THE NADEKO TEAM, AS WE WILL NO LONGER PATCH AND UPDATE 0.9. THIS GUIDE IS HERE ONLY FOR USERS THAT ARE UNABLE TO RUN 1.0 </h1></b></u>
+
 #NadekoBot Documentation
 
 To invite NadekoBot to your server, click on the image bellow:
