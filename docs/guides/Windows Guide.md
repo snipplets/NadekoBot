@@ -1,5 +1,5 @@
 ________________________________________________________________________________
-*Thanks to @Flatbread and Mirai for making this guide, as well as Lucy for fixing it for EOL*
+*Thanks to @Flatbread and Mirai for making this guide, plus Lucy for amending it for EOL*
 ________________________________________________________________________________
 
 ### Setting Up NadekoBot on Windows
