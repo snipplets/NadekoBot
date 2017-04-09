@@ -3438,4 +3438,13 @@
   <data name="shopremove_usage" xml:space="preserve">
     <value>`{0}shoprm 1`</value>
   </data>
+  <data name="markov_cmd" xml:space="preserve">
+    <value>markov</value>
+  </data>
+  <data name="markov_desc" xml:space="preserve">
+    <value>Generates a text based off the last 100 posts in the chat.</value>
+  </data>
+  <data name="markov_usage" xml:space="preserve">
+    <value>`{0}markov`</value>
+  </data>
 </root>

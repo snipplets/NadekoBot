@@ -4812,6 +4812,33 @@ namespace NadekoBot.Resources {
         }
         
         /// <summary>
+        ///    Looks up a localized string similar to markov.
+        /// </summary>
+        public static string markov_cmd {
+            get {
+                return ResourceManager.GetString("markov_cmd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to Generates a text based off the last 100 posts in the chat..
+        /// </summary>
+        public static string markov_desc {
+            get {
+                return ResourceManager.GetString("markov_desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to `{0}markov`.
+        /// </summary>
+        public static string markov_usage {
+            get {
+                return ResourceManager.GetString("markov_usage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///    Looks up a localized string similar to max.
         /// </summary>
         public static string max_cmd {
