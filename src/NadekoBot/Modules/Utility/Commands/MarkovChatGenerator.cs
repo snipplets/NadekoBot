@@ -16,16 +16,16 @@ namespace NadekoBot.Modules.Utility
         {
             private Dictionary<Tuple<string, string>, int> Markov2GramMap = new Dictionary<Tuple<string, string>, int>();
             private int totalWords = 0;
-
+            private int oldMessages = 500;
             [NadekoCommand, Usage, Description, Aliases]
             public async Task Markov()
             {
                 await Context.Channel.TriggerTypingAsync().ConfigureAwait(false);
 
-                var msgs = new List<IMessage>(100);
-                await Context.Channel.GetMessagesAsync(100).ForEachAsync(dled => msgs.AddRange(dled)).ConfigureAwait(false);
+                var msgs = new List<IMessage>(oldMessages);
+                await Context.Channel.GetMessagesAsync(oldMessages).ForEachAsync(dled => msgs.AddRange(dled)).ConfigureAwait(false);
 
-                var msgContent = new List<string>(100);
+                var msgContent = new List<string>(oldMessages);
                 var ignoreSelfID = Context.Client.CurrentUser.Id;
                 foreach (var msg in msgs)
                 {
