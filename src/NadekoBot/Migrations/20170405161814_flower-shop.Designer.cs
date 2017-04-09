@@ -10,9 +10,10 @@ using NadekoBot.Modules.Music.Classes;
 namespace NadekoBot.Migrations
 {
     [DbContext(typeof(NadekoContext))]
-    partial class NadekoSqliteContextModelSnapshot : ModelSnapshot
+    [Migration("20170405161814_flower-shop")]
+    partial class flowershop
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.0-rtm-22752");
@@ -532,8 +533,6 @@ namespace NadekoBot.Migrations
                     b.Property<bool>("FilterInvites");
 
                     b.Property<bool>("FilterWords");
-
-                    b.Property<ulong?>("GameVoiceChannel");
 
                     b.Property<ulong>("GreetMessageChannelId");
 
