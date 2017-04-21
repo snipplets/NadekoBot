@@ -3012,7 +3012,7 @@ namespace NadekoBot.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Toggles game voice channel feature in the voice channel you&apos;re currently in. Users who join the game voice channel will get automatically redirected to the voice channel with the name of their current game if it exists. Can&apos;t move users to channels that the bot has no connect permission for. One per server..
+        ///    Looks up a localized string similar to Toggles game voice channel feature in the voice channel you&apos;re currently in. Users who join the game voice channel will get automatically redirected to the voice channel with the name of their current game, if it exists. Can&apos;t move users to channels that the bot has no connect permission for. One per server..
         /// </summary>
         public static string gamevoicechannel_desc {
             get {
@@ -3026,6 +3026,33 @@ namespace NadekoBot.Resources {
         public static string gamevoicechannel_usage {
             get {
                 return ResourceManager.GetString("gamevoicechannel_usage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to globalcommand gcmd.
+        /// </summary>
+        public static string gcmd_cmd {
+            get {
+                return ResourceManager.GetString("gcmd_cmd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to Enables or disables a command from use on all servers..
+        /// </summary>
+        public static string gcmd_desc {
+            get {
+                return ResourceManager.GetString("gcmd_desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to `{0}gcmd  `.
+        /// </summary>
+        public static string gcmd_usage {
+            get {
+                return ResourceManager.GetString("gcmd_usage", resourceCulture);
             }
         }
         
@@ -3107,6 +3134,33 @@ namespace NadekoBot.Resources {
         public static string give_usage {
             get {
                 return ResourceManager.GetString("give_usage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to globalmodule gmod.
+        /// </summary>
+        public static string gmod_cmd {
+            get {
+                return ResourceManager.GetString("gmod_cmd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to Enable or disable a module from use on all servers..
+        /// </summary>
+        public static string gmod_desc {
+            get {
+                return ResourceManager.GetString("gmod_desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to `{0}gmod nsfw disable`.
+        /// </summary>
+        public static string gmod_usage {
+            get {
+                return ResourceManager.GetString("gmod_usage", resourceCulture);
             }
         }
         
@@ -4056,6 +4110,33 @@ namespace NadekoBot.Resources {
         }
         
         /// <summary>
+        ///    Looks up a localized string similar to listglobalperms lgp.
+        /// </summary>
+        public static string lgp_cmd {
+            get {
+                return ResourceManager.GetString("lgp_cmd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to Lists global permissions set by the bot owner..
+        /// </summary>
+        public static string lgp_desc {
+            get {
+                return ResourceManager.GetString("lgp_desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to `{0}lgp`.
+        /// </summary>
+        public static string lgp_usage {
+            get {
+                return ResourceManager.GetString("lgp_usage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///    Looks up a localized string similar to linux.
         /// </summary>
         public static string linux_cmd {
@@ -4983,7 +5064,7 @@ namespace NadekoBot.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Mentions every person from the provided role or roles (separated by a &apos;,&apos;) on this server. Requires you to have the mention everyone permission..
+        ///    Looks up a localized string similar to Mentions every person from the provided role or roles (separated by a &apos;,&apos;) on this server..
         /// </summary>
         public static string mentionrole_desc {
             get {
@@ -6540,6 +6621,33 @@ namespace NadekoBot.Resources {
         }
         
         /// <summary>
+        ///    Looks up a localized string similar to resetglobalperms.
+        /// </summary>
+        public static string resetglobalpermissions_cmd {
+            get {
+                return ResourceManager.GetString("resetglobalpermissions_cmd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to Resets global permissions set by bot owner..
+        /// </summary>
+        public static string resetglobalpermissions_desc {
+            get {
+                return ResourceManager.GetString("resetglobalpermissions_desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    Looks up a localized string similar to `{0}resetglobalperms`.
+        /// </summary>
+        public static string resetglobalpermissions_usage {
+            get {
+                return ResourceManager.GetString("resetglobalpermissions_usage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///    Looks up a localized string similar to resetperms.
         /// </summary>
         public static string resetpermissions_cmd {
@@ -7899,7 +8007,7 @@ namespace NadekoBot.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Play Nadeko slots. Max bet is 999. 3 seconds cooldown per user..
+        ///    Looks up a localized string similar to Play Nadeko slots. Max bet is 9999. 1.5 second cooldown per user..
         /// </summary>
         public static string slot_desc {
             get {
@@ -9663,7 +9771,7 @@ namespace NadekoBot.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to `{0}warn @b1nzy`.
+        ///    Looks up a localized string similar to `{0}warn @b1nzy Very rude person`.
         /// </summary>
         public static string warn_usage {
             get {
