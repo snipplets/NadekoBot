@@ -33,6 +33,12 @@ namespace NadekoBot.Modules.Utility
 
                 var createdAt = new DateTime(2015, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc).AddMilliseconds(guild.Id >> 22);
                 var users = await guild.GetUsersAsync().ConfigureAwait(false);
+                int humanCount = 0;
+
+               foreach (var user in users)
+                    if (!user.IsBot)
+                        humanCount++;
+
                 var features = string.Join("\n", guild.Features);
                 if (string.IsNullOrWhiteSpace(features))
                     features = "-";
@@ -41,7 +47,7 @@ namespace NadekoBot.Modules.Utility
                     .WithTitle(guild.Name)
                     .AddField(fb => fb.WithName(GetText("id")).WithValue(guild.Id.ToString()).WithIsInline(true))
                     .AddField(fb => fb.WithName(GetText("owner")).WithValue(ownername.ToString()).WithIsInline(true))
-                    .AddField(fb => fb.WithName(GetText("members")).WithValue(users.Count.ToString()).WithIsInline(true))
+                    .AddField(fb => fb.WithName(GetText("humans_and_bots")).WithValue(humanCount.ToString() + " / " + (users.Count() - humanCount).ToString()).WithIsInline(true))
                     .AddField(fb => fb.WithName(GetText("text_channels")).WithValue(textchn.ToString()).WithIsInline(true))
                     .AddField(fb => fb.WithName(GetText("voice_channels")).WithValue(voicechn.ToString()).WithIsInline(true))
                     .AddField(fb => fb.WithName(GetText("created_at")).WithValue($"{createdAt:dd.MM.yyyy HH:mm}").WithIsInline(true))
